@@ -18,6 +18,8 @@ class Thresholds(enum.Enum):
 
 
 class ColorCodes(enum.IntEnum):
+    """Enum with bcolors codes."""
+
     red = 31
     green = 32
     yellow = 33
